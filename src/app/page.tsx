@@ -20,7 +20,7 @@ export default function Home() {
     setIsDispatching(true)
     
     try {
-      const response = await fetch('https://webhook.canastrainteligencia.com/webhook/disparar', {
+      const response = await fetch('https://webhook.canastrainteligencia.com/webhook/disparador', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
